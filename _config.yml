@@ -7,8 +7,8 @@ permalink:           pretty
 # Setup
 title:               Reading difficult things
 tagline:             'one week at a time'
-description:         'Reading and summarizing one random scientific paper a week. Made by <a href="https://mobeets.github.io">mobeets</a>.'
-url:                 https://mobeets.github.io
+description:         'Reading and summarizing one scientific paper on a different topic each week. Made by <a href="https://mobeets.github.io">Jay Hennig</a>.'
+url:                 https://mobeets.github.io/reading-difficult-things
 baseurl:             https://mobeets.github.io/reading-difficult-things
 paginate:            5
 
@@ -23,3 +23,4 @@ version:             1.0.0
 
 # Gems
 gems: [jekyll-paginate]
+markdown: kramdown
