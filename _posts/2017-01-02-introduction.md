@@ -3,7 +3,7 @@ layout: post
 title: "Week #1: Fire"
 ---
 
-<img src="{{ site.url }}/public/images/week1/panorama.png" alt="trees, before and after a fire" style="">
+<img src="{{ site.baseurl }}/public/images/week1/panorama.png" alt="trees, before and after a fire" style="">
 
 __Paper:__ [_Influence of tree species on continental differences in boreal fires and climate feedbacks_](https://www.nature.com/articles/ngeo2352) (Nature Geoscience, 2015), by Brendan M. Rogers et al. [[pdf]](http://sci-hub.tw/10.1038/ngeo2352).
 

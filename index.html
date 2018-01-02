@@ -5,7 +5,7 @@ title: Home
 
 <h1>Reading difficult things</h1>
 
-<img src="{{ site.url }}/public/images/sontag.jpg" alt="Susan Sontag in a bear costume" style="float: left; padding: 10px 20px 0px 0px; width: 50%;">
+<img src="{{ site.baseurl }}/public/images/sontag.jpg" alt="Susan Sontag in a bear costume" style="float: left; padding: 10px 20px 0px 0px; width: 50%;">
 
 <p>Join me<sup>*</sup> as I read and summarize a scientific paper on a different topic each week. Ideally, we won't initially have a clue about the topic at hand. That should make it easier to learn at least <i>something</i> about a new idea in an area we might not have otherwise thought much about.</p>
 
@@ -16,7 +16,7 @@ title: Home
   {% for post in paginator.posts %}
   <div class="">
     <h2 class="post-title">
-      <a href="{{ site.url }}/{{ post.url }}">
+      <a href="{{ site.baseurl }}/{{ post.url }}">
         {{ post.title }}
       </a>
     </h2>
