@@ -1,0 +1,45 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Reading difficult things</h1>
+
+<img src="{{ site.url }}/public/images/sontag.jpg" alt="Susan Sontag in a bear costume" style="float: left; padding: 10px 20px 0px 0px; width: 50%;">
+
+<p>Join me<sup>*</sup> as I read and summarize a scientific paper on a different topic each week. Ideally, we won't initially have a clue about the topic at hand. That should make it easier to learn at least <i>something</i> about a new idea in an area we might not have otherwise thought much about.</p>
+
+<p>* Note: I am not the woman in the bear costume. That is Susan Sontag.</p>
+<hr>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="">
+    <h2 class="post-title">
+      <a href="{{ site.url }}/{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.url }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <!-- <span class="pagination-item older">Older</span> -->
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.url }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.url }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <!-- <span class="pagination-item newer">Newer</span> -->
+  {% endif %}
+</div>
+
