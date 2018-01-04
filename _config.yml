@@ -14,6 +14,7 @@ paginate:            5
 
 # About/contact
 author:
+  shortname:	     Jay H
   name:              Jay Hennig
   url:               https://twitter.com/jehosafet
   email:             mobeets@gmail.com

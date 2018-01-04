@@ -2,76 +2,16 @@
 layout: default
 title: Home
 ---
+<meta property="og:image" content="{{ site.baseurl }}/public/images/sontag.png" />
 
 <!-- <p>Reading scientific papers sounds hard, but it's easy if you start small.</p> -->
 <!-- <p>Learning about research in a new area can be daunting, so it's best to start small.</p> -->
+<img src="{{ site.baseurl }}/public/images/sontag.png" alt="Susan Sontag in a bear costume" style="padding: 0px 0px 0px 0px; width: 100%; min-width: 310px;">
 
-<img src="{{ site.baseurl }}/public/images/sontag.jpg" alt="Susan Sontag in a bear costume" style="float: left; padding: 10px 20px 0px 0px; width: 60%; min-width: 310px;">
+<p>Each week, I'll pick a simple topic&mdash;think "fire," "dirt," or "orca whales"&mdash;and read a recent science paper related to that idea. I'll then share what I learned in a quick five-minute email. The goal of these weekly emails is to be a quick way to learn something new about different areas of research.</p>
 
-<p>Each week, I'll pick a simple topic&mdash;think "fire," "dirt," or "orca whales"&mdash;and read a recent science paper related to that idea. My hope is that these weekly emails will be a quick way to learn something new about different areas of research.</p>
-
-<p>* Warning: I am not the woman in the bear costume. That is Susan Sontag.</p>
-
+<b><center>Sign up for a weekly email</center></b>
+{% include signup.html %}
 <hr>
-<b><center>Subscribe for weekly updates</center></b>
-<!-- Link to subscribe page: -->
-<!-- https://github.us17.list-manage.com/subscribe?u=75b484ef590b02d6a388f41aa&id=2f829a07a5 -->
-
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-  #mc_embed_signup{background:#fff; clear:left; width:100%;}
-  #mc_embed_signup input.button {
-    background-color: #2557a8;
-    -webkit-appearance: none;
-    -webkit-border-radius:0; 
-    border-radius:0;
-  }
-  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://github.us17.list-manage.com/subscribe/post?u=75b484ef590b02d6a388f41aa&amp;id=2f829a07a5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-  <label for="mce-EMAIL"></label>
-  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_75b484ef590b02d6a388f41aa_2f829a07a5" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-<hr>
+<small>* Note: I am not the woman in the bear costume. That is Susan Sontag.</small>
 <!--End mc_embed_signup-->
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="">
-    <h2 class="post-title">
-      <a href="{{ site.url }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.url }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <!-- <span class="pagination-item older">Older</span> -->
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.url }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.url }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <!-- <span class="pagination-item newer">Newer</span> -->
-  {% endif %}
-</div>
-
