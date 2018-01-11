@@ -12,6 +12,23 @@ title: Home
 
 <b><center>Sign up for a weekly email</center></b>
 {% include signup.html %}
-<hr>
-<small>* Note: I am not the woman in the bear costume. That is Susan Sontag.</small>
+
+<br><small>* Note: I am not the woman in the bear costume. That is Susan Sontag.</small>
 <!--End mc_embed_signup-->
+
+<hr>
+<div class="posts">
+  {% for post in paginator.posts %}
+  {% if forloop.last != false %}
+  <div class="">
+    <h2 class="post-title">
+      <a href="{{ site.url }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
