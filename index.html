@@ -18,8 +18,8 @@ title: Home
 
 <hr>
 <div class="posts">
-  {% for post in paginator.posts %}
-  {% if forloop.last != false %}
+  {% for post in paginator.posts reversed %}
+  {% if forloop.last == false %}
   <div class="">
     <h2 class="post-title">
       <a href="{{ site.url }}{{ post.url }}">
