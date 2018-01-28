@@ -2,10 +2,11 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="description" content="Reading and summarizing one scientific paper on a different topic each week.">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.meta_description }}{% endif %}">
   <meta name="keywords" content="science,research,article,summary,newsletter,reading,difficult things">
   <meta name="author" content="{{ site.author.shortname }}">
-  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:title" content="{% if page.title %}{{ site.title }}: {{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:image" content="{{ site.baseurl }}/public/images/{% if page.number %}{{ site.baseurl }}banners/week{{page.number}}.png{% else %}sontag.png{% endif %}" />
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">

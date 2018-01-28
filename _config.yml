@@ -8,6 +8,7 @@ permalink:           pretty
 title:               Paper Trails
 tagline:             'by <a href="https://mobeets.github.io">Jay H</a>'
 description:         'Reading and summarizing one scientific paper on a different topic each week. Made by <a href="https://mobeets.github.io">Jay Hennig</a>.'
+meta_description: 'Reading and summarizing one scientific paper on a different topic each week.'
 url:                 https://mobeets.github.io/paper-trails
 baseurl:             https://mobeets.github.io/paper-trails
 paginate:            5
