@@ -21,7 +21,7 @@ title: Home
   {% for post in paginator.posts reversed %}
   {% if forloop.last == false %}
   <div class="post-container" style="clear: both; overflow: auto; padding-bottom: 20px;">
-    <img src="{{ site.baseurl }}/public/images/banners/week{{post.number}}.png" alt="{{ post.banner_source }}" style="width: 25%; margin-bottom: 0px; min-width: 200px; float: left; margin-right: 5%;">
+    <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.baseurl }}/public/images/banners/week{{post.number}}.png" alt="{{ post.banner_source }}" style="width: 25%; margin-bottom: 0px; min-width: 200px; float: left; margin-right: 5%;"></a>
     <div class="post-summary" style="overflow: auto; float: left; width: 50%;">
       <h2 class="post-title">
         <a href="{{ site.url }}{{ post.url }}">
