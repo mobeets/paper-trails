@@ -11,7 +11,7 @@ description:         'Reading and summarizing one scientific paper on a differen
 meta_description: 'Reading and summarizing one scientific paper on a different topic each week.'
 url:                 https://mobeets.github.io/paper-trails
 baseurl:             https://mobeets.github.io/paper-trails
-paginate:            5
+paginate:            10
 
 # About/contact
 author:
@@ -28,4 +28,4 @@ gems: [jekyll-paginate]
 markdown: kramdown
 
 # Run with:
-# bundle exec jekyll serve --baseurl ''
+# bundle exec jekyll serve --baseurl '' --future true
