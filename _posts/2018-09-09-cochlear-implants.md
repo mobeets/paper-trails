@@ -61,7 +61,7 @@ Because of this, [the sound of a voice](https://www.youtube.com/watch?v=1dhTWVMc
 - perceiving/speaking tonal languages like Mandarin
 - perceiving music
 
-It may seem surprising that __cochlear implant users "can converse relatively easily on the phone but cannot tell the difference between two familiar nursery songs."__ This is because a single electrode might be responsible for indicating frequencies anywhere between middle C and the next eleven notes on a keyboard above it.
+It may seem surprising that __cochlear implant users "can converse relatively easily on the phone but cannot tell the difference between two familiar nursery songs."__ Because there are only so many electrodes representing such a broad range of frequencies, a single electrode might be responsible for indicating an entire octave's worth of notes--which means these notes would all sound the same!
 
 Still, the amount of improvements in cochlear implants over just the last few decades is incredible. It's truly a multi-discipline achievement, having required major improvements in surgery, engineering, and neuroscience.
 
@@ -71,11 +71,11 @@ Still, the amount of improvements in cochlear implants over just the last few de
 <!-- Jan Scheuermann chocolate bar -->
 <img src="{{ site.baseurl }}/public/images/week8/bci.jpg" style="width: 50%; min-width: 200px; float: left; margin-top: 20px; margin-right: 10px;">
 
-Replacing parts of the body with electronical devices, known as neuroprosthetics, is a growing field. Other than the pacemaker and cochlear implant, though, why aren't there more success stories?
+Replacing parts of the body with electronic devices, known as neuroprosthetics, is a growing field. Other than the pacemaker and cochlear implant, though, why aren't there more success stories?
 
 Retinal implants, which attempt to restore vision in patients with certain types of blindness, have been around since the 1970s but are [not yet useful enough](https://journals.lww.com/jneuro-ophthalmology/Fulltext/2011/06000/Update_on_Retinal_Prosthetic_Research__The_Boston.14.aspx) to justify the risks of surgery and implantation, or the cost. On top of that, our visual systems are [much more complex](http://science.sciencemag.org/content/295/5557/1022) than hearing. While representing sound in a cochlear implant may only require 12 or so stimulating electrodes, retinal implants need 60 or more.
 
-Brain-machine interfaces can also be used to sidestep the spinal cord, helping otherwise paralyzed patients control things like [robotic arms](https://www.upmc.com/media/media-kit/bci). But again, these devices have a long way to go before they reach they reach the general population. I think it's fair to say that of all of our sensory/motor capacities, hearing just happened to be one of the easiest to understand, access via surgery, and engineer.
+Brain-machine interfaces can also be used to sidestep the spinal cord, helping otherwise paralyzed patients control things like [robotic arms](https://www.upmc.com/media/media-kit/bci). But again, these devices have a long way to go before they reach the general population. I think it's fair to say that of all of our sensory/motor capacities, hearing just happened to be one of the easiest to understand, access via surgery, and engineer.
 
 <!-- Facts to mention:
 
@@ -114,4 +114,4 @@ Papers:
 - [Neil Harbisson](https://vimeo.com/118166526), who "sees" colors through sound
 - [The visual microphone](https://www.youtube.com/watch?v=FKXOucXB4a8), where ambient sound can be recovered from tiny movements in a plant's leaves
 
-<small>Image credits: [[banner]](https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.20197) [[1]](https://www.sciencemag.org/news/2018/06/momentous-transition-multicellular-life-may-not-have-been-so-hard-after-all) [[2]](https://www.nature.com/articles/ncomms7102) [[3]](https://www.nature.com/articles/ncomms7102)</small>
+<small>Image credits: [[1]](https://commons.wikimedia.org/w/index.php?curid=57309987) [[2]](https://musicalbionics.wordpress.com/2010/05/09/interior-design-music-for-the-bionic-ear/) [[3]](https://www.upmc.com/media/media-kit/bci/images)</small>
