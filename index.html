@@ -14,7 +14,6 @@ layout: default
 <hr>
 <div class="posts">
   {% for post in paginator.posts reversed %}
-  {% if forloop.last == false %}
   <div class="post-container" style="clear: both; overflow: auto; padding-bottom: 20px;">
     <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.baseurl }}/public/images/banners/week{{post.number}}.png" alt="{{ post.banner_source }}" style="width: 25%; margin-bottom: 0px; min-width: 200px; float: left; margin-right: 5%;"></a>
     <div class="post-summary" style="overflow: auto; float: left; width: 50%;">
@@ -27,6 +26,5 @@ layout: default
     </div>
     <!--<span class="post-tag">{{ post.tagline }}</span>-->
   </div>
-  {% endif %}
   {% endfor %}
 </div>
